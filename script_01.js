@@ -24,7 +24,7 @@ function ausgabeNamen()
 //console.log(firstName); // Fehler --> lokal
 
 /***** Funktionen 02b *****/
-// 2a. Parametrisierung + Datenübergabe von AUSSEN
+// 2b. Parametrisierung + Datenübergabe von AUSSEN
 /*
 function ausgabeNamen(firstName) 
 {    
@@ -75,14 +75,13 @@ ausgabe(getStr("Drazen", "Savi"));
 function getStr(firstName, familyName) {
     let gap = " ";
     let outputStr = "Hallo" + gap + firstName + gap + familyName + "!";
-    return outputStr;
+    return outputStr; // Verbindung zum Call!!!
 }
 
 
-/** 2. Job: Ausgabe **/
+/** 2. Job: Ausgabe **/          // (Test Getriebene Entwicklung)
 //ausgabe("hi"); // Unit-Test | TDD (Test Driven Development)
 function ausgabe(outputStr) {
     console.log(outputStr); 
 }
-
 
